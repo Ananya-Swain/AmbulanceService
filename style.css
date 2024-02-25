@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(ambulance.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px);
+}
+.wrapper{
+    width: 420px;
+    background: transparent ;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 1px solid grey;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    
+}
+.input-box input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.remember-forgot{
+    text-align: center;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.remember-forgot a{
+    color: rgb(34, 21, 66);
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+    font-size: larger;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-weight: 600;
+}
+.register{
+    text-align: center;
+    margin: 20px 0 15px;
+    font-weight: bold;
+}
+.register a{
+    text-decoration: none;
+    color: rgb(34, 21, 66);
+    font-weight: bold;
+}
+.register a:hover{
+    text-decoration: underline;
+}
